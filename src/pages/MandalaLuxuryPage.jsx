@@ -388,7 +388,7 @@ const MandalaLuxuryPage = () => {
           <div className="nav-links">
             <a href="#">Колекція</a>
             <a href="#">Про нас</a>
-            <a href="#">Практика</a>
+            <a href="#practice">Практика</a>
           </div>
           <button className="nav-cta">Завантажити ↓</button>
         </nav>
@@ -651,7 +651,16 @@ const MandalaLuxuryPage = () => {
 
         <footer>
           <span>© 2026 Mandala Project · Всі права захищені</span>
-          <span>सत्यम् शिवम् सुन्दरम्</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <a href="https://www.instagram.com/mendi_kiev/" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.4)', transition: 'color 0.3s' }} onMouseOver={e => e.currentTarget.style.color = '#c060ff'} onMouseOut={e => e.currentTarget.style.color = 'rgba(255,255,255,0.4)'}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <span>सत्यम् शिवम् सुन्दरम्</span>
+          </div>
         </footer>
       </div>
     </>
