@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Grotesk:wght@300;400;500;700&family=Noto+Sans+Devanagari:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cinzel+Decorative:wght@400;700&family=Space+Grotesk:wght@300;400;500;700&family=Noto+Sans+Devanagari:wght@300;400&display=swap');
 
 /* ============ TOKENS ============ */
 :root {
@@ -97,14 +97,22 @@
 }
 
 .mpp-nav__logo {
-  font-family: var(--ff-display);
-  font-size: 18px;
-  font-style: italic;
-  background: var(--grad-gold);
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  background: var(--grad-aurora);
+  background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  letter-spacing: 0.02em;
+  animation: mpp-aurora-shift 8s linear infinite;
+  transition: letter-spacing 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
+  user-select: none;
+}
+
+.mpp-nav__logo:hover {
+  letter-spacing: 0.55em;
 }
 
 .mpp-nav__links {
@@ -854,13 +862,23 @@
 }
 
 .mpp-footer__brand {
-  font-family: var(--ff-display);
-  font-size: 15px;
-  font-style: italic;
-  background: var(--grad-gold);
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  background: var(--grad-aurora);
+  background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  animation: mpp-aurora-shift 8s linear infinite;
+  transition: letter-spacing 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+.mpp-footer__brand:hover {
+  letter-spacing: 0.52em;
 }
 
 .mpp-footer__copy {

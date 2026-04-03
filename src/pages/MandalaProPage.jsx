@@ -116,7 +116,7 @@ const MandalaHeroInnerSVG = () => (
 
 const Navbar = () => (
   <nav className="mpp-nav">
-    <div className="mpp-nav__logo">Mandala ✦ Project</div>
+    <div className="mpp-nav__logo">✦ Mandala Project</div>
     <ul className="mpp-nav__links">
       <li><a href="#">Колекція</a></li>
       <li><a href="#">Практика</a></li>
@@ -303,7 +303,7 @@ const Ticker = () => {
 
 const Footer = () => (
   <footer className="mpp-footer">
-    <div className="mpp-footer__brand">Mandala ✦ Project</div>
+    <div className="mpp-footer__brand">✦ Mandala Project</div>
     <span className="mpp-footer__copy">© 2026 · Всі права захищені</span>
     <div className="mpp-footer__social">
       <a href="https://www.instagram.com/mendi_kiev/" target="_blank" rel="noopener noreferrer" className="mpp-footer__ig" aria-label="Instagram">
