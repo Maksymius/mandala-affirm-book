@@ -392,7 +392,7 @@ const MandalaLuxuryPage = () => {
           color: rgba(255,255,255,0.2);
         }
       `}</style>
-      
+
       <div className="mandala-luxury-base">
         <div className="noise"></div>
         <div className="orb1"></div>
@@ -415,87 +415,87 @@ const MandalaLuxuryPage = () => {
             <svg viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#ffd700" stopOpacity="0.8"/>
-                  <stop offset="35%" stopColor="#ff9500" stopOpacity="0.7"/>
-                  <stop offset="65%" stopColor="#ff5080" stopOpacity="0.7"/>
-                  <stop offset="100%" stopColor="#c060ff" stopOpacity="0.8"/>
+                  <stop offset="0%" stopColor="#ffd700" stopOpacity="0.8" />
+                  <stop offset="35%" stopColor="#ff9500" stopOpacity="0.7" />
+                  <stop offset="65%" stopColor="#ff5080" stopOpacity="0.7" />
+                  <stop offset="100%" stopColor="#c060ff" stopOpacity="0.8" />
                 </linearGradient>
                 <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor="#6090ff" stopOpacity="0.6"/>
-                  <stop offset="50%" stopColor="#c060ff" stopOpacity="0.5"/>
-                  <stop offset="100%" stopColor="#ffd700" stopOpacity="0.6"/>
+                  <stop offset="0%" stopColor="#6090ff" stopOpacity="0.6" />
+                  <stop offset="50%" stopColor="#c060ff" stopOpacity="0.5" />
+                  <stop offset="100%" stopColor="#ffd700" stopOpacity="0.6" />
                 </linearGradient>
               </defs>
               <g transform="translate(170,170)" stroke="url(#g1)" fill="none" strokeWidth="0.8">
-                <circle r="160" strokeWidth="0.5" stroke="url(#g2)"/>
-                <circle r="130"/>
-                <circle r="100" stroke="url(#g2)"/>
-                <circle r="70"/>
-                <circle r="40" stroke="url(#g2)"/>
-                <circle r="12"/>
+                <circle r="160" strokeWidth="0.5" stroke="url(#g2)" />
+                <circle r="130" />
+                <circle r="100" stroke="url(#g2)" />
+                <circle r="70" />
+                <circle r="40" stroke="url(#g2)" />
+                <circle r="12" />
                 <g>
-                  <ellipse rx="25" ry="80" transform="rotate(0)"/>
-                  <ellipse rx="25" ry="80" transform="rotate(30)"/>
-                  <ellipse rx="25" ry="80" transform="rotate(60)"/>
-                  <ellipse rx="25" ry="80" transform="rotate(90)"/>
-                  <ellipse rx="25" ry="80" transform="rotate(120)"/>
-                  <ellipse rx="25" ry="80" transform="rotate(150)"/>
+                  <ellipse rx="25" ry="80" transform="rotate(0)" />
+                  <ellipse rx="25" ry="80" transform="rotate(30)" />
+                  <ellipse rx="25" ry="80" transform="rotate(60)" />
+                  <ellipse rx="25" ry="80" transform="rotate(90)" />
+                  <ellipse rx="25" ry="80" transform="rotate(120)" />
+                  <ellipse rx="25" ry="80" transform="rotate(150)" />
                 </g>
                 <g stroke="url(#g2)" strokeWidth="0.5">
-                  <ellipse rx="15" ry="55" transform="rotate(15)"/>
-                  <ellipse rx="15" ry="55" transform="rotate(45)"/>
-                  <ellipse rx="15" ry="55" transform="rotate(75)"/>
-                  <ellipse rx="15" ry="55" transform="rotate(105)"/>
-                  <ellipse rx="15" ry="55" transform="rotate(135)"/>
-                  <ellipse rx="15" ry="55" transform="rotate(165)"/>
+                  <ellipse rx="15" ry="55" transform="rotate(15)" />
+                  <ellipse rx="15" ry="55" transform="rotate(45)" />
+                  <ellipse rx="15" ry="55" transform="rotate(75)" />
+                  <ellipse rx="15" ry="55" transform="rotate(105)" />
+                  <ellipse rx="15" ry="55" transform="rotate(135)" />
+                  <ellipse rx="15" ry="55" transform="rotate(165)" />
                 </g>
-                <polygon points="0,-130 112.6,65 -112.6,65" strokeWidth="0.7"/>
-                <polygon points="0,130 112.6,-65 -112.6,-65" strokeWidth="0.7" stroke="url(#g2)"/>
-                <polygon points="0,-80 69.3,40 -69.3,40" strokeWidth="0.5"/>
-                <polygon points="0,80 69.3,-40 -69.3,-40" strokeWidth="0.5" stroke="url(#g2)"/>
-                <line x1="-160" y1="0" x2="160" y2="0" strokeWidth="0.3" stroke="url(#g2)"/>
-                <line x1="0" y1="-160" x2="0" y2="160" strokeWidth="0.3"/>
-                <line x1="-113" y1="-113" x2="113" y2="113" strokeWidth="0.3" stroke="url(#g2)"/>
-                <line x1="113" y1="-113" x2="-113" y2="113" strokeWidth="0.3"/>
-                <line x1="-160" y1="0" x2="160" y2="0" strokeWidth="0.2" stroke="url(#g2)" transform="rotate(30)"/>
-                <line x1="-160" y1="0" x2="160" y2="0" strokeWidth="0.2" transform="rotate(60)"/>
-                <circle r="5" cx="0" cy="-130" fill="url(#g1)"/>
-                <circle r="5" cx="112.6" cy="65" fill="url(#g1)"/>
-                <circle r="5" cx="-112.6" cy="65" fill="url(#g1)"/>
-                <circle r="5" cx="0" cy="130" fill="url(#g2)"/>
-                <circle r="5" cx="-112.6" cy="-65" fill="url(#g2)"/>
-                <circle r="5" cx="112.6" cy="-65" fill="url(#g2)"/>
-                <circle r="3" cx="0" cy="-100"/>
-                <circle r="3" cx="86.6" cy="50"/>
-                <circle r="3" cx="-86.6" cy="50"/>
-                <circle r="3" cx="0" cy="100" stroke="url(#g2)"/>
-                <circle r="3" cx="-86.6" cy="-50" stroke="url(#g2)"/>
-                <circle r="3" cx="86.6" cy="-50" stroke="url(#g2)"/>
+                <polygon points="0,-130 112.6,65 -112.6,65" strokeWidth="0.7" />
+                <polygon points="0,130 112.6,-65 -112.6,-65" strokeWidth="0.7" stroke="url(#g2)" />
+                <polygon points="0,-80 69.3,40 -69.3,40" strokeWidth="0.5" />
+                <polygon points="0,80 69.3,-40 -69.3,-40" strokeWidth="0.5" stroke="url(#g2)" />
+                <line x1="-160" y1="0" x2="160" y2="0" strokeWidth="0.3" stroke="url(#g2)" />
+                <line x1="0" y1="-160" x2="0" y2="160" strokeWidth="0.3" />
+                <line x1="-113" y1="-113" x2="113" y2="113" strokeWidth="0.3" stroke="url(#g2)" />
+                <line x1="113" y1="-113" x2="-113" y2="113" strokeWidth="0.3" />
+                <line x1="-160" y1="0" x2="160" y2="0" strokeWidth="0.2" stroke="url(#g2)" transform="rotate(30)" />
+                <line x1="-160" y1="0" x2="160" y2="0" strokeWidth="0.2" transform="rotate(60)" />
+                <circle r="5" cx="0" cy="-130" fill="url(#g1)" />
+                <circle r="5" cx="112.6" cy="65" fill="url(#g1)" />
+                <circle r="5" cx="-112.6" cy="65" fill="url(#g1)" />
+                <circle r="5" cx="0" cy="130" fill="url(#g2)" />
+                <circle r="5" cx="-112.6" cy="-65" fill="url(#g2)" />
+                <circle r="5" cx="112.6" cy="-65" fill="url(#g2)" />
+                <circle r="3" cx="0" cy="-100" />
+                <circle r="3" cx="86.6" cy="50" />
+                <circle r="3" cx="-86.6" cy="50" />
+                <circle r="3" cx="0" cy="100" stroke="url(#g2)" />
+                <circle r="3" cx="-86.6" cy="-50" stroke="url(#g2)" />
+                <circle r="3" cx="86.6" cy="-50" stroke="url(#g2)" />
               </g>
             </svg>
             <div className="mandala-inner">
               <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#ffd700"/>
-                    <stop offset="50%" stopColor="#ff9500"/>
-                    <stop offset="100%" stopColor="#ff5080"/>
+                    <stop offset="0%" stopColor="#ffd700" />
+                    <stop offset="50%" stopColor="#ff9500" />
+                    <stop offset="100%" stopColor="#ff5080" />
                   </linearGradient>
                 </defs>
                 <g transform="translate(100,100)" stroke="url(#g3)" fill="none" strokeWidth="1">
-                  <circle r="90"/><circle r="65"/><circle r="40"/><circle r="18"/>
-                  <polygon points="0,-65 56.3,32.5 -56.3,32.5"/>
-                  <polygon points="0,65 56.3,-32.5 -56.3,-32.5"/>
-                  <circle r="8" cx="0" cy="-65" fill="#ffd700" fillOpacity="0.6"/>
-                  <circle r="8" cx="56.3" cy="32.5" fill="#ff9500" fillOpacity="0.6"/>
-                  <circle r="8" cx="-56.3" cy="32.5" fill="#ff5080" fillOpacity="0.6"/>
-                  <circle r="4" fill="#fff" fillOpacity="0.8"/>
+                  <circle r="90" /><circle r="65" /><circle r="40" /><circle r="18" />
+                  <polygon points="0,-65 56.3,32.5 -56.3,32.5" />
+                  <polygon points="0,65 56.3,-32.5 -56.3,-32.5" />
+                  <circle r="8" cx="0" cy="-65" fill="#ffd700" fillOpacity="0.6" />
+                  <circle r="8" cx="56.3" cy="32.5" fill="#ff9500" fillOpacity="0.6" />
+                  <circle r="8" cx="-56.3" cy="32.5" fill="#ff5080" fillOpacity="0.6" />
+                  <circle r="4" fill="#fff" fillOpacity="0.8" />
                 </g>
               </svg>
             </div>
           </div>
 
-          <h1>33 Мандали<br/>Афірмацій</h1>
+          <h1>33 Мандали<br />Афірмацій</h1>
           <div className="hero-sub-dev">सकारात्मकता · शांति · प्रेम</div>
           <p>Ручна робота. Цифрова точність. Кожна мандала — це вхід у стан, який ти шукав.</p>
 
@@ -537,14 +537,14 @@ const MandalaLuxuryPage = () => {
             <div className="m-item">
               <span className="m-num">№01</span>
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs><linearGradient id="mg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ffd700"/><stop offset="100%" stopColor="#ff5080"/></linearGradient></defs>
+                <defs><linearGradient id="mg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ffd700" /><stop offset="100%" stopColor="#ff5080" /></linearGradient></defs>
                 <g transform="translate(35,35)" stroke="url(#mg1)" fill="none" strokeWidth="0.8">
-                  <circle r="32"/><circle r="22"/><circle r="12"/>
-                  <ellipse rx="10" ry="28" transform="rotate(0)"/>
-                  <ellipse rx="10" ry="28" transform="rotate(60)"/>
-                  <ellipse rx="10" ry="28" transform="rotate(120)"/>
-                  <polygon points="0,-22 19,11 -19,11"/>
-                  <polygon points="0,22 19,-11 -19,-11"/>
+                  <circle r="32" /><circle r="22" /><circle r="12" />
+                  <ellipse rx="10" ry="28" transform="rotate(0)" />
+                  <ellipse rx="10" ry="28" transform="rotate(60)" />
+                  <ellipse rx="10" ry="28" transform="rotate(120)" />
+                  <polygon points="0,-22 19,11 -19,11" />
+                  <polygon points="0,22 19,-11 -19,-11" />
                 </g>
               </svg>
               <span className="m-label">शांति</span>
@@ -552,15 +552,15 @@ const MandalaLuxuryPage = () => {
             <div className="m-item">
               <span className="m-num">№09</span>
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs><linearGradient id="mg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#c060ff"/><stop offset="100%" stopColor="#6090ff"/></linearGradient></defs>
+                <defs><linearGradient id="mg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#c060ff" /><stop offset="100%" stopColor="#6090ff" /></linearGradient></defs>
                 <g transform="translate(35,35)" stroke="url(#mg2)" fill="none" strokeWidth="0.8">
-                  <circle r="32"/><circle r="20"/><circle r="8"/>
-                  <ellipse rx="8" ry="30" transform="rotate(0)"/>
-                  <ellipse rx="8" ry="30" transform="rotate(45)"/>
-                  <ellipse rx="8" ry="30" transform="rotate(90)"/>
-                  <ellipse rx="8" ry="30" transform="rotate(135)"/>
-                  <line x1="-32" y1="0" x2="32" y2="0" strokeWidth="0.4"/>
-                  <line x1="0" y1="-32" x2="0" y2="32" strokeWidth="0.4"/>
+                  <circle r="32" /><circle r="20" /><circle r="8" />
+                  <ellipse rx="8" ry="30" transform="rotate(0)" />
+                  <ellipse rx="8" ry="30" transform="rotate(45)" />
+                  <ellipse rx="8" ry="30" transform="rotate(90)" />
+                  <ellipse rx="8" ry="30" transform="rotate(135)" />
+                  <line x1="-32" y1="0" x2="32" y2="0" strokeWidth="0.4" />
+                  <line x1="0" y1="-32" x2="0" y2="32" strokeWidth="0.4" />
                 </g>
               </svg>
               <span className="m-label">प्रेम</span>
@@ -568,13 +568,13 @@ const MandalaLuxuryPage = () => {
             <div className="m-item">
               <span className="m-num">№17</span>
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs><linearGradient id="mg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ff9500"/><stop offset="100%" stopColor="#c060ff"/></linearGradient></defs>
+                <defs><linearGradient id="mg3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ff9500" /><stop offset="100%" stopColor="#c060ff" /></linearGradient></defs>
                 <g transform="translate(35,35)" stroke="url(#mg3)" fill="none" strokeWidth="0.8">
-                  <circle r="32"/><circle r="24"/><circle r="16"/><circle r="6"/>
-                  <polygon points="0,-32 27.7,16 -27.7,16"/>
-                  <polygon points="0,32 27.7,-16 -27.7,-16"/>
-                  <polygon points="0,-16 13.9,8 -13.9,8" strokeWidth="0.5"/>
-                  <polygon points="0,16 13.9,-8 -13.9,-8" strokeWidth="0.5"/>
+                  <circle r="32" /><circle r="24" /><circle r="16" /><circle r="6" />
+                  <polygon points="0,-32 27.7,16 -27.7,16" />
+                  <polygon points="0,32 27.7,-16 -27.7,-16" />
+                  <polygon points="0,-16 13.9,8 -13.9,8" strokeWidth="0.5" />
+                  <polygon points="0,16 13.9,-8 -13.9,-8" strokeWidth="0.5" />
                 </g>
               </svg>
               <span className="m-label">शक्ति</span>
@@ -582,15 +582,15 @@ const MandalaLuxuryPage = () => {
             <div className="m-item">
               <span className="m-num">№21</span>
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs><linearGradient id="mg4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ffd700"/><stop offset="100%" stopColor="#6090ff"/></linearGradient></defs>
+                <defs><linearGradient id="mg4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ffd700" /><stop offset="100%" stopColor="#6090ff" /></linearGradient></defs>
                 <g transform="translate(35,35)" stroke="url(#mg4)" fill="none" strokeWidth="0.8">
-                  <circle r="30"/>
-                  <ellipse rx="12" ry="30" transform="rotate(0)"/>
-                  <ellipse rx="12" ry="30" transform="rotate(36)"/>
-                  <ellipse rx="12" ry="30" transform="rotate(72)"/>
-                  <ellipse rx="12" ry="30" transform="rotate(108)"/>
-                  <ellipse rx="12" ry="30" transform="rotate(144)"/>
-                  <circle r="6" fill="url(#mg4)" fillOpacity="0.4"/>
+                  <circle r="30" />
+                  <ellipse rx="12" ry="30" transform="rotate(0)" />
+                  <ellipse rx="12" ry="30" transform="rotate(36)" />
+                  <ellipse rx="12" ry="30" transform="rotate(72)" />
+                  <ellipse rx="12" ry="30" transform="rotate(108)" />
+                  <ellipse rx="12" ry="30" transform="rotate(144)" />
+                  <circle r="6" fill="url(#mg4)" fillOpacity="0.4" />
                 </g>
               </svg>
               <span className="m-label">आनंद</span>
@@ -598,17 +598,17 @@ const MandalaLuxuryPage = () => {
             <div className="m-item">
               <span className="m-num">№28</span>
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs><linearGradient id="mg5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ff5080"/><stop offset="100%" stopColor="#ffd700"/></linearGradient></defs>
+                <defs><linearGradient id="mg5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#ff5080" /><stop offset="100%" stopColor="#ffd700" /></linearGradient></defs>
                 <g transform="translate(35,35)" stroke="url(#mg5)" fill="none" strokeWidth="0.8">
-                  <circle r="32"/><circle r="18"/>
-                  <line x1="-32" y1="0" x2="32" y2="0" strokeWidth="0.4"/>
-                  <line x1="0" y1="-32" x2="0" y2="32" strokeWidth="0.4"/>
-                  <line x1="-22.6" y1="-22.6" x2="22.6" y2="22.6" strokeWidth="0.4"/>
-                  <line x1="22.6" y1="-22.6" x2="-22.6" y2="22.6" strokeWidth="0.4"/>
-                  <circle r="3" cx="0" cy="-32"/><circle r="3" cx="32" cy="0"/>
-                  <circle r="3" cx="0" cy="32"/><circle r="3" cx="-32" cy="0"/>
-                  <circle r="2" cx="22.6" cy="-22.6"/><circle r="2" cx="22.6" cy="22.6"/>
-                  <circle r="2" cx="-22.6" cy="22.6"/><circle r="2" cx="-22.6" cy="-22.6"/>
+                  <circle r="32" /><circle r="18" />
+                  <line x1="-32" y1="0" x2="32" y2="0" strokeWidth="0.4" />
+                  <line x1="0" y1="-32" x2="0" y2="32" strokeWidth="0.4" />
+                  <line x1="-22.6" y1="-22.6" x2="22.6" y2="22.6" strokeWidth="0.4" />
+                  <line x1="22.6" y1="-22.6" x2="-22.6" y2="22.6" strokeWidth="0.4" />
+                  <circle r="3" cx="0" cy="-32" /><circle r="3" cx="32" cy="0" />
+                  <circle r="3" cx="0" cy="32" /><circle r="3" cx="-32" cy="0" />
+                  <circle r="2" cx="22.6" cy="-22.6" /><circle r="2" cx="22.6" cy="22.6" />
+                  <circle r="2" cx="-22.6" cy="22.6" /><circle r="2" cx="-22.6" cy="-22.6" />
                 </g>
               </svg>
               <span className="m-label">ज्ञान</span>
@@ -616,17 +616,17 @@ const MandalaLuxuryPage = () => {
             <div className="m-item">
               <span className="m-num">№33</span>
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs><linearGradient id="mg6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#6090ff"/><stop offset="50%" stopColor="#c060ff"/><stop offset="100%" stopColor="#ff5080"/></linearGradient></defs>
+                <defs><linearGradient id="mg6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#6090ff" /><stop offset="50%" stopColor="#c060ff" /><stop offset="100%" stopColor="#ff5080" /></linearGradient></defs>
                 <g transform="translate(35,35)" stroke="url(#mg6)" fill="none" strokeWidth="0.8">
-                  <circle r="32"/><circle r="24"/><circle r="14"/><circle r="5"/>
-                  <ellipse rx="10" ry="30" transform="rotate(0)"/>
-                  <ellipse rx="10" ry="30" transform="rotate(30)"/>
-                  <ellipse rx="10" ry="30" transform="rotate(60)"/>
-                  <ellipse rx="10" ry="30" transform="rotate(90)"/>
-                  <ellipse rx="10" ry="30" transform="rotate(120)"/>
-                  <ellipse rx="10" ry="30" transform="rotate(150)"/>
-                  <circle r="2" cx="0" cy="-14"/><circle r="2" cx="12.1" cy="7"/>
-                  <circle r="2" cx="-12.1" cy="7"/>
+                  <circle r="32" /><circle r="24" /><circle r="14" /><circle r="5" />
+                  <ellipse rx="10" ry="30" transform="rotate(0)" />
+                  <ellipse rx="10" ry="30" transform="rotate(30)" />
+                  <ellipse rx="10" ry="30" transform="rotate(60)" />
+                  <ellipse rx="10" ry="30" transform="rotate(90)" />
+                  <ellipse rx="10" ry="30" transform="rotate(120)" />
+                  <ellipse rx="10" ry="30" transform="rotate(150)" />
+                  <circle r="2" cx="0" cy="-14" /><circle r="2" cx="12.1" cy="7" />
+                  <circle r="2" cx="-12.1" cy="7" />
                 </g>
               </svg>
               <span className="m-label">मोक्ष</span>
