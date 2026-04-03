@@ -10,9 +10,9 @@ function App() {
   useEffect(() => {
     const handleHash = () => {
       const hash = window.location.hash.replace('#', '')
-      if (hash === 'base')     setCurrentView('base')
-      if (hash === 'luxury')   setCurrentView('luxury')
-      if (hash === 'pro')      setCurrentView('pro')
+      if (hash === 'base') setCurrentView('base')
+      if (hash === 'luxury') setCurrentView('luxury')
+      if (hash === 'pro') setCurrentView('pro')
       if (hash === 'practice') setCurrentView('practice')
     }
     window.addEventListener('hashchange', handleHash)
@@ -26,7 +26,7 @@ function App() {
     <>
       {/* Dev Switcher */}
       <div style={{
-        position: 'fixed', bottom: 16, right: 16, zIndex: 9999,
+        position: 'fixed', bottom: 100, right: 16, zIndex: 9999,
         display: 'flex', gap: 6, padding: '8px 10px',
         background: 'rgba(5,5,8,0.85)',
         backdropFilter: 'blur(12px)',
@@ -34,9 +34,9 @@ function App() {
         border: '1px solid rgba(255,255,255,0.08)',
       }}>
         {[
-          { key: 'pro',     label: 'Pro ✦' },
-          { key: 'luxury',  label: 'Luxury' },
-          { key: 'base',    label: 'Base' },
+          { key: 'pro', label: 'Pro ✦' },
+          { key: 'luxury', label: 'Luxury' },
+          { key: 'base', label: 'Base' },
         ].map(({ key, label }) => (
           <button
             key={key}
@@ -64,9 +64,9 @@ function App() {
 
       <main>
         {currentView === 'practice' ? <PracticePage />
-          : currentView === 'luxury'  ? <MandalaLuxuryPage />
-          : currentView === 'base'    ? <MandalaPage />
-          :                             <MandalaProPage />}
+          : currentView === 'luxury' ? <MandalaLuxuryPage />
+            : currentView === 'base' ? <MandalaPage />
+              : <MandalaProPage />}
       </main>
     </>
   )
