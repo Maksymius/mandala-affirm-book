@@ -492,6 +492,12 @@ const MandalaLuxuryPage = () => {
 
         <div className="divider-dev">ॐ · श्री · ॐ · श्री · ॐ · श्री · ॐ</div>
 
+        <section style={{ display: 'flex', justifyContent: 'center', padding: '60px 20px', position: 'relative', zIndex: 2 }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: '900px', height: '500px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(150,50,255,0.15)', backgroundColor: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,180,100,0.15)' }}>
+            <iframe style={{ position: 'absolute', border: 'none', width: '100%', height: '100%', left: 0, top: 0 }} src="https://online.fliphtml5.com/paunb/mahendi_mandala_v4/" title="Mandala Affirmations for Emotional Balance & Self-Reflection" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen={true}></iframe>
+          </div>
+        </section>
+
         <section className="features">
           <div className="feat-card">
             <span className="feat-symbol">ॐ</span>

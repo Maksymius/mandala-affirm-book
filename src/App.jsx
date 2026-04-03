@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       {/* Development Debug/Switcher - can be removed before production */}
-      <div className="fixed top-4 right-4 z-[999] flex gap-2 p-2 bg-[#050505]/80 backdrop-blur-md rounded-lg border border-[#D4AF37]/20">
+      <div className="fixed bottom-4 right-4 z-[999] flex gap-2 p-2 bg-[#050505]/80 backdrop-blur-md rounded-lg border border-[#D4AF37]/20">
         <button 
           onClick={() => { window.location.hash = 'luxury'; setCurrentView('luxury') }}
           className={`px-3 py-1 font-mono text-[9px] uppercase tracking-wider rounded-sm transition-colors ${currentView === 'luxury' ? 'bg-[#D4AF37] text-black' : 'text-[#D4AF37] hover:bg-[#D4AF37]/10'}`}

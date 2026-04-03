@@ -363,6 +363,12 @@ const MandalaPage = () => {
 
         <div className="section-divider"></div>
 
+        <section style={{ display: 'flex', justifyContent: 'center', padding: '48px 32px', backgroundColor: '#C8C8C8', borderBottom: '2px solid #1A1A1A' }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: '900px', height: '500px', border: '2px solid #1A1A1A', background: '#F4F4F4' }}>
+            <iframe style={{ position: 'absolute', border: 'none', width: '100%', height: '100%', left: 0, top: 0 }} src="https://online.fliphtml5.com/paunb/mahendi_mandala_v4/" title="Mandala Affirmations for Emotional Balance & Self-Reflection" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen={true}></iframe>
+          </div>
+        </section>
+
         <section className="product-section">
           <div className="product-left">
             <span className="section-num">// 001</span>
