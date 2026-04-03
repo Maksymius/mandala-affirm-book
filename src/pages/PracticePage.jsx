@@ -73,7 +73,7 @@ export default function PracticePage() {
                 }
             `}</style>
             
-            <div className="practice-page-root" style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden', cursor: 'none' }}>
+            <div className="practice-page-root" style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden', cursor: activeLang === 'ukrainian' ? 'auto' : 'none' }}>
                 <PracticeMandala />
 
                 <div className="divider-top">✧ · ॐ · श्री · ॐ · ✧</div>

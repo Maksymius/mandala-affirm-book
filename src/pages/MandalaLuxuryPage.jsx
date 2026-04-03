@@ -70,6 +70,19 @@ const MandalaLuxuryPage = () => {
         }
         .mandala-luxury-base .nav-cta:hover { box-shadow: 0 0 50px rgba(192,96,255,0.7); transform: scale(1.03); }
 
+        @media (max-width: 768px) {
+          .mandala-luxury-base nav {
+            flex-direction: column;
+            gap: 16px;
+            padding: 20px 16px;
+          }
+          .mandala-luxury-base .nav-links {
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+        }
+
         .mandala-luxury-base .hero {
           position: relative; z-index: 2;
           padding: 60px 40px 80px;
@@ -163,10 +176,12 @@ const MandalaLuxuryPage = () => {
           position: relative; z-index: 2;
           text-align: center; padding: 16px;
           font-family: 'Noto Sans Devanagari', sans-serif;
-          font-size: 22px; letter-spacing: 0.4em;
+          font-size: clamp(12px, 3.5vw, 22px); 
+          letter-spacing: clamp(0.1em, 1.5vw, 0.4em);
           color: rgba(255,180,100,0.25);
           border-top: 1px solid rgba(255,180,100,0.08);
           border-bottom: 1px solid rgba(255,180,100,0.08);
+          white-space: nowrap;
         }
 
         .mandala-luxury-base .features {
